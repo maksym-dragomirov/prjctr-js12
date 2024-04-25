@@ -34,11 +34,11 @@ if (isNaN(value)) {
 for (let i = 1; i <= 100; i++) {
     //Or if (i%15 === 0) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log(`FuzzBuzz : ${i}`);
+        console.log(`FuzzBuzz: ${i}`);
     } else if (i % 3 === 0) {
-        console.log(`Fuzz : ${i}`);
+        console.log(`Fuzz: ${i}`);
     } else if (i % 5 === 0) {
-        console.log(`Buzz : ${i}`);
+        console.log(`Buzz: ${i}`);
     }
 }
 
