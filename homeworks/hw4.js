@@ -10,8 +10,7 @@ const currentMaxValue = 4589;
 let reverseMaxValue;
 
 // Transforming to string to be able to use SPLIT
-const a = currentMaxValue.toString();
-reverseMaxValue = a.split('').reverse().join('');
+reverseMaxValue = currentMaxValue.toString().split('').reverse().join('');
 // Without this line we will receive typeof = string instead of number
 reverseMaxValue = Number(reverseMaxValue);
 
