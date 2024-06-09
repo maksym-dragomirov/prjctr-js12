@@ -4,6 +4,26 @@ body {
     align-items: center;
 }
 
+.body-dark {
+    background-color: #2F2222;
+}
+
+.info-label-dark {
+    color: black;
+}
+
+.body-light {
+    background-color: #F6E5E5;
+}
+
+.info-label-light {
+    color: white;
+}
+
+.info-label-hidden {
+    visibility: hidden;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
